@@ -1,0 +1,70 @@
+main{
+    padding: 30px ;
+}
+
+.container{
+  padding: 30px ;
+}
+
+.footer{
+    background-color: black;
+    padding: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.bloques{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20rem;
+}
+
+.bloques img{
+    width: 10rem;
+    height: 6.6rem;
+}
+
+.bd-placeholder-img {
+  font-size: 6rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+} 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: rgb(236, 234, 234);
+}
+
+ .form-signin {
+	max-width: 400px;
+	width: 90%;
+	margin: auto;
+	padding: 1px;
+}
+
+.iform-signin {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 1px;
+}
+.datos{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+  max-width: 800 px;
+}
